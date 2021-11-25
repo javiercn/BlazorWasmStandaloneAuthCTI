@@ -5,6 +5,7 @@
 
 * Once you've verified that you can run the server project
 * Create a new Blazor WebAssembly standalone application with authentication
+  * `dotnet new blazorwasm -au Individual --authority https://localhost:7251 --client-id BlazorWasmStandaloneAuthCTI.Client -o <<app-name>>`
   * Include the following details:
     Authority = "https://localhost:7251"
     ClientId = "BlazorWasmStandaloneAuthCTI.Client"
